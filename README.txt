@@ -1,0 +1,1 @@
+My second Sinatra application thingy ever!
