@@ -1,25 +1,30 @@
-<html>
+<!doctype html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>IdeaBox</title>
+    <link href='http://fonts.googleapis.com/css?family=Cherry+Swash:700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="http://www.clipartlord.com/wp-content/uploads/2012/12/lightbulb.png"/>
   </head>
 
   <body>
    
 
     <div class="container">
-      <link rel="shortcut icon" href="http://www.clipartlord.com/wp-content/uploads/2012/12/lightbulb.png"/>
-      
-      <h1>IdeaBox</h1>
-      
+      <div class="movetitledown">
+          <h1 class="title">
+            <marquee behavior="scroll">
+              IdeaBox
+            </marquee>
+          </h1>
+      </div>
       <center><img src="http://images.wikia.com/inanimateinsanity/images/1/14/LightbulbPOSE.png" width="150" height="200"></center>
 
-      <h3>Our Great Ideas!</h3>
+      <h3>My Great Ideas!</h3>
 
       <ul class="center">
           <% ideas.each do |idea| %>
-          <li>
-          <%= idea.title %><br/>
+          <li><strong>
+          <%= idea.title %></strong><br/>
           <ol><%= idea.description %></ol>
          </li>
         <% end %>
@@ -32,6 +37,7 @@
         <textarea name='idea_description'></textarea><br/>
         <input type='submit'/>
       </form>
+      <img src="http://www.animationplayhouse.com/aapencildance.gif"/>
     </div>
   </body>
 </html>

@@ -1,8 +1,9 @@
 h1 {
 	background-color:white;
 	color: #48D1CC;
-	font:40pt/50pt Lucida Handwriting, serif;
 	text-align:center;
+	font-family: 'Cherry Swash', cursive;
+	font-size: 64px;
 
 
 }
@@ -20,6 +21,14 @@ body {
 	margin:200px; margin-top:50px;
 	font:10pt/20pt Comic Sans MS, serif;
 	text-align:center;
+}
+
+.title {
+	line-height: 50px;
+}
+
+.movetitledown {
+	margin-top: 20px;
 }
 
 .container {
@@ -44,12 +53,15 @@ input {
 	font: 20pt/30pt Comic Sans MS, serif;
 	border-style:solid;
 	border-color:#FF0033;
+	width: 300px;
 }
 
 textarea {
 	background-color: pink;
 	border-style:groove;
 	border-color:#FF0033;
+	width: 350px; 
+	height: 10em;
 }
 
 
