@@ -1,0 +1,56 @@
+h1 {
+	background-color:white;
+	color: #48D1CC;
+	font:40pt/50pt Lucida Handwriting, serif;
+	text-align:center;
+
+
+}
+
+h3 {
+	background-color:white;
+	text-align:center;
+	color: #FF0033;
+	font:20pt/30pt Comic Sans MS, serif;
+}
+
+body {
+	background-image:url('http://img4-3.realsimple.timeinc.net/images/1005/floral-wallpaper-seraphine_300.jpg');
+	background-color:white;
+	margin:200px; margin-top:50px;
+	font:10pt/20pt Comic Sans MS, serif;
+	text-align:center;
+}
+
+.container {
+	background-color: white;
+}
+
+ul.center {
+	background-color:white;
+	width:150px;
+    margin:0 auto;
+    text-align:left;
+}
+
+p {
+	background-color:white;
+	font:20pt/30pt Comic Sans MS, serif;
+	color:#FF0000;
+}
+
+input {
+	background-color: pink;
+	font: 20pt/30pt Comic Sans MS, serif;
+	border-style:solid;
+	border-color:#FF0033;
+}
+
+textarea {
+	background-color: pink;
+	border-style:groove;
+	border-color:#FF0033;
+}
+
+
+
